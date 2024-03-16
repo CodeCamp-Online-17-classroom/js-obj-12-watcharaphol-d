@@ -1,6 +1,13 @@
-# js-lab-57
-### Lab57 Object: shopping Cart
-- ให้เขียนโปรแกรมรับค่า 4 ค่าได้แก่ ชื่อสินค้า จำนวนที่ขาย ราคาต่อชิ้น และส่วนลดต่อชิ้นหน่วยเป็นเปอร์เซนต์
-- นำค่าที่รับมาไปสร้างเป็น object ที่มี key-value ตามค่าที่รับมา 
-- ถ้าส่วนลดเป็น 0 หรือไม่มีค่าไม่ต้องสร้าง key-value ที่เก็บส่วนลด
-- สร้างฟังก์ชันคำนวณราคาที่แท้จริงของ object (ราคาหลังหักส่วนลด)
+# js-lab-58
+### Lab58 Object: HR System
+- ให้รับข้อมูลเป็นชื่อพนักงาน
+- หากมีพนักงานที่ชื่อตรงกับคีย์ในอ็อบเจ็คด้านล่างให้แสดงข้อความว่า Name: john, salary: 1000, address: Ratchathewi, Bangkok หากไม่มีชื่อแสดงข้อความว่า Not Found
+
+```JavaScript
+const employees = {
+  john: { salary: 1000, address: { district: 'Ratchathewi', province: 'Bangkok' } },
+  peter: { salary: 1500, address: { district: 'Pathumwan', province: 'Bangkok' } },
+  mike: { salary: 800, address: { district: 'Pakkret', province: 'Nonthaburi' } },
+  sarah: { salary: 2200, address: { district: 'Sriraja', province: 'Chonburi' } }
+};
+```
